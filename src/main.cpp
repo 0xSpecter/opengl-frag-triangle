@@ -1,9 +1,7 @@
-/*#include "hello.hpp" */
+#include "hello.hpp" 
 #include <stdio.h>
 
 int main() {
-    printf("hewllow");
-    /* myPrintHelloMake();
-    */
+  myPrintHelloMake();
   return(0);
 }

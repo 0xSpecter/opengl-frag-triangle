@@ -2,5 +2,5 @@ CC = clang++
 CFLAGS = -I.
 
 all: 
-	@clang++ main.cpp -Wall -std=c++17 -o main
+	@CC -g -O ./*.cpp -Wall -std=c++17 -o main
 	@./main
