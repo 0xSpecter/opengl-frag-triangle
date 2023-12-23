@@ -7,7 +7,7 @@ all:
 	@$(CC) $(CFLAGS) -std=c11 -pedantic-errors -O3 -c glad.c -o glad.o
 	@$(CXX) $(CFLAGS) -std=c++17 main.o glad.o -l glfw3 -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo -o main
 	@./main
-	@rm -f main.o glad.o 
+	@rm -f main.o glad.o main
 
 c:
 	@rm -f main.o glad.o main 
