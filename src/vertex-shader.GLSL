@@ -1,13 +1,12 @@
-#version 330 core\n
+#version 330 core
 
-layout (location = 0) in vec3 aPos;\n
-layout (location = 1) in vec3 aColor;\n
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aColor;
 
-out vec3 ourColor;\n
+out vec3 ourColor;
 
-void main() {\n
-    gl_Position = vec4(aPos, 1.0);\n
+void main() {
+    gl_Position = vec4(aPos, 1.0);
 
-    ourColor = Acolor;\n
-
-}\n
+    ourColor = Acolor;
+}
